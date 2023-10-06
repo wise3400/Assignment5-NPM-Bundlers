@@ -1,7 +1,9 @@
-const helloString = 'hello world!';
-const year = 2023;
-function printTheYear() {
-  document.querySelector('p').innerText += year;
+const helloString = 'Hi there. This is Wilson!';
+function printFavoriteAnimal() {
+  document.querySelector('p').innerText += ' My favorite animal is tortoise!';
+  document.querySelector('p').innerText += ' This is working. Yay!';
 }
 
-export { helloString as hello, year, printTheYear };
+
+
+export { helloString as hello, printFavoriteAnimal  };
