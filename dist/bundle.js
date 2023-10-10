@@ -16,91 +16,91 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _script2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script2.js */ \"./script2.js\");\n/* harmony import */ var _script3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./script3.js */ \"./script3.js\");\n// import { hello as helloStr, year, printTheYear } from \"./script2.js\";\n\n\n\nconsole.log(_script2_js__WEBPACK_IMPORTED_MODULE_0__.hello);\nconsole.log(_script2_js__WEBPACK_IMPORTED_MODULE_0__.year);\n_script2_js__WEBPACK_IMPORTED_MODULE_0__.printTheYear();\n\n(0,_script3_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n\n\n//# sourceURL=webpack://09-28/./script1.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _script2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script2.js */ \"./script2.js\");\n/* harmony import */ var _script3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./script3.js */ \"./script3.js\");\n// import { hello as helloStr, year, printTheYear } from \"./script2.js\";\n\n\n\n// console.log(script2Stuff.hello);\n// console.log(script2Stuff.tortoisePic);\n\n(0,_script3_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n_script2_js__WEBPACK_IMPORTED_MODULE_0__.printFavoriteAnimal();\n\n\n\n\n//# sourceURL=webpack://10-05/./script1.js?");
 
-    /***/ }),
-    
-    /***/ "./script2.js":
-    /*!********************!*\
-      !*** ./script2.js ***!
-      \********************/
-    /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-    
-    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   hello: () => (/* binding */ helloString),\n/* harmony export */   printTheYear: () => (/* binding */ printTheYear),\n/* harmony export */   year: () => (/* binding */ year)\n/* harmony export */ });\nconst helloString = 'hello world!';\nconst year = 2023;\nfunction printTheYear() {\n  document.querySelector('p').innerText += year;\n}\n\n\n\n\n//# sourceURL=webpack://09-28/./script2.js?");
-    
-    /***/ }),
-    
-    /***/ "./script3.js":
-    /*!********************!*\
-      !*** ./script3.js ***!
-      \********************/
-    /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-    
-    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ printTheMonth)\n/* harmony export */ });\nfunction printTheMonth() {\n  document.querySelector('p').innerText += 'September';\n}\n\n\n//# sourceURL=webpack://09-28/./script3.js?");
-    
-    /***/ })
-    
-    /******/ 	});
-    /************************************************************************/
-    /******/ 	// The module cache
-    /******/ 	var __webpack_module_cache__ = {};
-    /******/ 	
-    /******/ 	// The require function
-    /******/ 	function __webpack_require__(moduleId) {
-    /******/ 		// Check if module is in cache
-    /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-    /******/ 		if (cachedModule !== undefined) {
-    /******/ 			return cachedModule.exports;
-    /******/ 		}
-    /******/ 		// Create a new module (and put it into the cache)
-    /******/ 		var module = __webpack_module_cache__[moduleId] = {
-    /******/ 			// no module.id needed
-    /******/ 			// no module.loaded needed
-    /******/ 			exports: {}
-    /******/ 		};
-    /******/ 	
-    /******/ 		// Execute the module function
-    /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-    /******/ 	
-    /******/ 		// Return the exports of the module
-    /******/ 		return module.exports;
-    /******/ 	}
-    /******/ 	
-    /************************************************************************/
-    /******/ 	/* webpack/runtime/define property getters */
-    /******/ 	(() => {
-    /******/ 		// define getter functions for harmony exports
-    /******/ 		__webpack_require__.d = (exports, definition) => {
-    /******/ 			for(var key in definition) {
-    /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-    /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-    /******/ 				}
-    /******/ 			}
-    /******/ 		};
-    /******/ 	})();
-    /******/ 	
-    /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-    /******/ 	(() => {
-    /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-    /******/ 	})();
-    /******/ 	
-    /******/ 	/* webpack/runtime/make namespace object */
-    /******/ 	(() => {
-    /******/ 		// define __esModule on exports
-    /******/ 		__webpack_require__.r = (exports) => {
-    /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-    /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-    /******/ 			}
-    /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-    /******/ 		};
-    /******/ 	})();
-    /******/ 	
-    /************************************************************************/
-    /******/ 	
-    /******/ 	// startup
-    /******/ 	// Load entry module and return exports
-    /******/ 	// This entry module can't be inlined because the eval devtool is used.
-    /******/ 	var __webpack_exports__ = __webpack_require__("./script1.js");
-    /******/ 	
-    /******/ })()
-    ;
+/***/ }),
+
+/***/ "./script2.js":
+/*!********************!*\
+  !*** ./script2.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   hello: () => (/* binding */ helloString),\n/* harmony export */   printFavoriteAnimal: () => (/* binding */ printFavoriteAnimal)\n/* harmony export */ });\nconst helloString = 'Hi there. This is Wilson!';\nfunction printFavoriteAnimal() {\n  document.querySelector('p').innerText += ' My favorite animal is tortoise!';\n  document.querySelector('p').innerText += ' This is working. Yay! ';\n}\n\n\n\n\n\n//# sourceURL=webpack://10-05/./script2.js?");
+
+/***/ }),
+
+/***/ "./script3.js":
+/*!********************!*\
+  !*** ./script3.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ printIntro)\n/* harmony export */ });\nfunction printIntro() {\n    document.querySelector('p').innerText += ' My name is Wilson and I am 21 years old!!';\n  }\n\n//# sourceURL=webpack://10-05/./script3.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = __webpack_require__("./script1.js");
+/******/ 	
+/******/ })()
+;

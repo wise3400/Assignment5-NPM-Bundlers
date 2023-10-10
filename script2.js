@@ -1,7 +1,7 @@
 const helloString = 'Hi there. This is Wilson!';
 function printFavoriteAnimal() {
   document.querySelector('p').innerText += ' My favorite animal is tortoise!';
-  document.querySelector('p').innerText += ' This is working. Yay!';
+  document.querySelector('p').innerText += ' This is working. Yay! ';
 }
 
 
